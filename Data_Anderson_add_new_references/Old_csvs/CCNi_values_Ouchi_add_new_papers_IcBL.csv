@@ -1,0 +1,96 @@
+SN,Ni56 mass,Average/single values,Reference,,Host_galaxy,Distance,,
+SN1998bw,0.4960,0.5832,Prentice+16,,ESO 184-G82,37,,
+,0.5400,,Lyman+16,,,,,
+,0.7800,,Richardson+06,,,,,
+,0.4000,,Nakamura+01,,,,,
+,0.7000,,Iwamoto+98,,,,,
+SN2002ap,0.0940,0.0877,Prentice+16,,NGC 628,7.5,,
+,0.0700,,Lyman+16,,,,,
+,0.1400,,Richardson+06,,,,,
+,0.0900,,Foley+03,,,,,
+,0.0900,,Drout+11,,,,,
+,0.0800,,Tomita+06,,,,,
+,0.0500,,Sharon+20,,,,,
+SN2003dh,0.3390,0.3630,Prentice+16,,A104450+2131,695,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.4000,,Deng+05,,,,,
+,0.3500,,Mazzali+03,,,,,
+SN2003jd,0.3410,0.3678,Prentice+16,,MCG -01-59-21,82.9,,# Hubble distance
+,0.4300,,Lyman+16,,,,,
+,0.3400,,Drout+11,,,,,
+,0.3600,,Valenti+08,,,,,
+SN2003lw,0.5500,0.5500,Mazzali+06,,A080230-3951,475,,# Mazzali+06 (https://ui.adsabs.harvard.edu/abs/2006ApJ...645.1323M/abstract)
+SN2005kr,0.3300,0.5200,Prentice+16,,SDSS J30829.66+005320.1,605.3,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.7100,,Taddia+15,,,,,
+SN2005ks,0.0960,0.3480,Prentice+16,,SDSS J13756.52-000157.6,438.5,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.6000,,Taddia+15,,,,,
+SN2005kz,0.4500,0.4600,Lyman+16,,MCG+08-34-032,124,,# Hubble distance
+,0.4700,,Drout+11,,,,,
+SN2006aj,0.2170,0.2485,Prentice+16,,A032139+1652,132.4,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.2800,,Lyman+16,,,,,
+14475,0.1730,0.7215,Prentice+16,,SDSS J22430.87+001212.2,682.3,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,1.2700,,Taddia+15,,,,,
+SN2006nx,0.4220,1.1410,Prentice+16,,SDSS J33330.44-004038.2,622.3,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,1.8600,,Taddia+15,,,,,
+SN2007D,1.5000,1.5000,Drout+11,,UGC 2653,103.8,,
+SN2007ms,0.3900,0.3900,Taddia+15,,SDSS J03218.33-010052.9,170.9,,# Taddia+15 (https://ui.adsabs.harvard.edu/abs/2015A%26A...574A..60T/abstract)
+SN2007ru,0.3230,0.3958,Prentice+16,,UGC 12381,69.1,,# Hubble distance
+,0.4100,,Lyman+16,,,,,
+,0.4500,,Drout+11,,,,,
+,0.4000,,Sahu+09,,,,,
+SN2008hw,0.7510,0.7510,Prentice+16,,A223950-4008,2951.2,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+SN2009bb,0.2000,0.2356,Taddia+18,,NGC 3278,40.2,,
+,0.2500,,Taddia+18,,,,,
+,0.2580,,Prentice+16,,,,,
+,0.2500,,Lyman+16,,,,,
+,0.2200,,Pignata+11,,,,,
+SN2009ca,1.7300,2.0650,Taddia+18,,A212622-4051,417.5,,# Taddia+18 (https://ui.adsabs.harvard.edu/abs/2018A%26A...609A.136T/abstract)
+,2.4000,,Taddia+18,,,,,
+SN2009nz,0.3500,0.3500,Berger+11,,A022619-1857,2628,,# Olivares+15 (https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..44O/abstract)
+SN2010ah,0.2500,0.2375,Mazzali+13,,A114403+5541,216,,# Mazzali+13 (https://ui.adsabs.harvard.edu/abs/2013MNRAS.432.2463M/abstract)
+,0.2250,,Corsi+11,,,,,
+SN2010ay,0.9000,0.9000,Sanders+12,,A123527 +2704,297.9,,# Sanders+12 (https://ui.adsabs.harvard.edu/abs/2012ApJ...756..184S/abstract)
+SN2010bh,0.1420,0.1440,Prentice+16,,A071031-5615,244.3,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.1700,,Lyman+16,,,,,
+,0.1200,,Bufano+12,,,,,
+SN2010ma,0.5290,0.5290,Prentice+16,,A004855-3433,3020,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+PTF10aavz,0.4240,0.4240,Taddia+19,,**** not found,288.5,,# Taddia+19
+PTF10bzf,0.2740,0.2740,Taddia+19,,A114403+5541,224.8,,#Taddia+19
+PTF10ciw,0.2920,0.2920,Taddia+19,,**** not found,540,,#Taddia+19
+PTF10gvb,0.3710,0.3710,Taddia+19,,**** not found,454.1,,#Taddia+19
+PTF10qts,0.3600,0.3760,Walker+14,,,414.9,#Host not found.,# Walker+14 (https://ui.adsabs.harvard.edu/abs/2014MNRAS.442.2768W/abstract)
+,0.3920,,Taddia+19,,,,,
+PTF10tqv,0.2030,0.2030,Taddia+19,,**** not found,356.7,,# Taddia+19
+PTF10xem,0.3120,0.3120,Taddia+19,,**** not found,246.9,,#Taddia+19
+PTF10ysd,0.8020,0.8020,Taddia+19,,**** not found,436.3,,#Taddia+19
+PTF11cmh,0.2050,0.2050,Taddia+19,,**** not found,491.7,,#Taddia+19
+PTF11img,0.4790,0.4790,Taddia+19,,**** not found,755.3,,# Taddia+19
+PTF11lbm,0.1720,0.1720,Taddia+19,,**** not found,168.7,,#Taddia+19
+PTF12as ,0.1170,0.1170,Taddia+19,,**** not found,150.8,,#Taddia+19
+PTF12eci,0.2530,0.2530,Taddia+19,,**** not found,400.1,,#Taddia+19
+PTF12gzk,0.3700,0.3700,Ben-Ami+12,,2SLAQ J221241.53+003042.7,62.4,,# Hubble distance
+SN2012ap,0.1740,0.1740,Prentice+16,,NGC 1729,39.3,,
+SN2012bz,0.3780,0.3640,Prentice+16,,A090738+1401,1153.5,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.3500,,Melandri+12,,,,,
+iPTF13bxl,0.3540,0.3540,Taddia+19,,A142914+1546,693.2,,# Taddia+19
+SN2013cq,0.5550,0.4775,Prentice+16,,A113232+2741,1729.8,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.4000,,Melandri+14,,,,,
+iPTF13dnt,0.4690,0.4690,Taddia+19,,**** not found,643.1,,# Taddia+19
+SN2013dx,0.3160,0.2580,Prentice+16,,A142914+1546,642.7,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.2000,,D’Elia+15,,,,,
+iPTF13ebw,0.1420,0.1420,Taddia+19,,**** not found,308.6,,# Taddia+19
+iPTF13u,0.1990,0.1990,Taddia+19,,**** not found,466.1,,# Taddia+19
+iPTF14gaq,0.1950,0.1950,Taddia+19,,**** not found,373.5,,# Taddia+19
+iPTF14dby,0.2230,0.1890,Prentice+16,,,322.1,#Host not found.,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.1550,,Taddia+19,,,,,
+SN2014ad,0.2400,0.2400,Sahu+18,,MRK 1309 NED01,28.8,,# Hubble distance
+iPTF15dqg,0.4610,0.4610,Taddia+19,,**** not found,254.3,,# Taddia+19
+iPTF15eov,5.1140,5.1140,Taddia+19,,**** not found,233.3,,# Taddia+19
+iPTF16asu,1.7600,2.2600,Wang+19,,**** not found,917,,# Taddia+19
+,2.7600,,Taddia+19,,,,,
+iPTF16ilj,0.4620,0.4620,Taddia+19,,**** not found,170.6,,# Taddia+19
+SN2016jca,0.2200,0.2200,Cano+17,,**** not found,700,,# Cano+17 (https://ui.adsabs.harvard.edu/abs/2017A%26A...605A.107C/abstract)
+,0.2700,,Ashall+19,,,,,
+iPTF16gox,0.1230,0.1230,Taddia+19,,**** not found,181.9,,# Taddia+19
+iPTF17cw,0.6400,0.5565,Corsi+17,,**** not found,429,,# Corsi+17 (https://ui.adsabs.harvard.edu/abs/2017ApJ...847...54C/abstract)
+,0.4730,,Taddia+19,,,,,
+SN2018bvw,0.3000,0.3000,Ho+20,,**** not found,248.85,,# Ho+20

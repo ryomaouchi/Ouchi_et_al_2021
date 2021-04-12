@@ -1,0 +1,6 @@
+SN,Ni56 mass,Average/single values,stdev,Reference,,Host_galaxy,Distance,,#Reference for distance
+SN2012aa,1.3000,1.3000,,Roy+16,,APMUKS(BJ) B144957.00-031938.0,361.5,,# Hubble distance
+LSQ13ddu,0.0100,0.0100,,Clark+20,,***not found,***,,
+SN2013ge,0.1090,0.1145,0.0078,Prentice+16,,NGC 3287,15.4,,
+,0.1200,,,Drout+16,,,,,
+PTF11bli,0.1010,0.1010,,Prentice+16,,PGC 2036567,145.2,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)

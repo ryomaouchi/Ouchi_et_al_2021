@@ -1,0 +1,28 @@
+#Taken from Table 6 in Pejcha & Prieto (2015).
+SN log(Lbol/Lsun) error     dL_Mpc    log_M_Ni
+
+SN2005cs   7.952  0.045       6.1		-2.328
+SN2012A    8.142  0.018       8.82      	-2.012 
+SN2004et   8.468 0.027        4.7	      -1.445
+SN2004A    8.348  0.038       20	      -1.336
+SN1999em   8.457  0.023       7.7	      -1.302  #
+SN2012aw   8.638  0.003       11.507          -1.157
+SN2009bw   8.425  0.020       11	      -1.816
+SN2008in   8.376 0.258        14	      -1.503
+SN2007od   9.023  0.039       24	      -2.006 
+SN2009js   8.768  0.107       16	      -1.197
+SN2004dj   8.192  0.053       3.5	      -1.816 
+SN2002hh   8.356  0.029       4.7	      -1.085 
+SN2008bk   8.111  0.197       4	      	      -1.796 
+SN1992H    9.074  0.056       31	      -0.553  #
+SN2009N    8.269  0.023       18	      -1.531
+SN2001dc   7.551  0.068       31.6	      -2.341
+SN2006bp   8.595 0.033        17	      -2.822
+SN2009dd   8.172  0.121       18	      -1.750 
+SN1995ad   9.077  0.084       22	      -1.030
+SN1996W    8.693  0.049       13	      -0.938 
+SN1980K    7.967  0.027       4.7	      -2.218
+
+# attached is those inclueded in Hamuy (2003).
+
+# Note that the distance is taken from Open Supernova Catalog. Other values are taken from Pejcha & Prieto (2015).

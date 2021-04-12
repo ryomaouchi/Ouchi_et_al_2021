@@ -1,0 +1,7 @@
+SN,Ni56 mass,Average/single values,stdev,Reference,,Host_galaxy,Distance,,#Reference for distance
+,,,,,,,,,
+PTF10iuv,0.016,0.016,,Kasliwal+12,,A171654 3133,104,,Open Supernova Catalog
+iPTF14gqr,0.0500,0.0500,,De+18,,***not found,284.5,,# De+18
+iPTF15eqv,0.0550,0.0550,,Milisavljevic+17,,NGC 3430,26.5,,
+iPTF16hgs,0.008,0.008,,De+18,,***not found,73.8,,# De+18
+SN2019dge,0.0157,0.0157,,Yao+20,,SDSS J173646.73 +503252.3,93,,# Yao+20

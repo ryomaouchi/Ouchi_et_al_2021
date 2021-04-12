@@ -1,0 +1,103 @@
+#距離が複数の値ある場合はどれか一つのものを使う。Niが複数ある場合は平均。
+
+# Lは後回し。
+
+SN           D_Mpc       M_Ni		       Citation
+
+############
+
+#1968L        4.1         None					Hamuy_2003
+1969L        10.0        0.0745				Hamuy_2003,Elmhamdi_etal_2003
+1970G        7.4         0.044	      	    		Hamuy_2003,Elmhamdi_etal_2003
+1973R        10.3        0.084	      	    	    		Hamuy_2003
+1980K	      4.5	 0.0061					Pejcha_and_Prieto_2015
+1986I        17.0        0.117	      		    		Hamuy_2003
+1986L        18.7        0.03	      	    		Hamuy_2003,Nadyozhin_2003
+1987A        0.05        0.074               		Arnett_etal_1989,Otsuka_etal_2012
+1988A        17.0        0.075	      	    		Hamuy_2003,Elmhamdi_etal_2003
+1988H        28.5        0.033                      		Elmhamdi_etal_2003       
+1989L        17.0        0.015 	      	    	    		Hamuy_2003
+1990E        18.2        0.052	    		Hamuy_2003,Nadyozhin_2003,Elmhamdi_etal_2003
+1990K        23.2        0.039	      	    	   		Hamuy_2003
+1991al       65.9        0.1075	      	    		Hamuy_2003,Nadyozhin_2003
+1991G        14.7        0.0215	      	    		Hamuy_2003,Elmhamdi_etal_2003
+1992H        29.4        0.177     	    	Hamuy_2003,Elmhamdi_etal_2003,Pejcha_and_Prieto_2015
+1992af       80.0        0.198      	    		Hamuy_2003,Nadyozhin_2003
+1992am      206.0        0.308	      	    		Hamuy_2003,Nadyozhin_2003
+1992ba       15.2        0.0283	      	    	Hamuy_2003,Nadyozhin_2003,Muller_etal_2017
+#1993A       131.4        None	      	    	    		Hamuy_2003
+#1993S       141.9        None					Hamuy_2003
+1994N        46.6        0.006					Pastorello_etal_2004
+1995ad	     22.9	 0.0605				Inserra_etal_2013,Pejcha_and_Prieto_2015
+1996W	     24.3	 0.13				Inserra_etal_2013,Pejcha_and_Prieto_2015
+1997D        18.1        0.00503	        Zampieri_etal_2003,Turatto_etal_1998,Elmhamdi_etal_2003
+1998A        30.3        0.11 					Pastorello_etal_2005
+1999br       10.8        0.0018     	    		Hamuy_2003,Pastorello_etal_2004
+1999ca       45.7        0.038	      	    			Hamuy_2003
+1999cr       93.8        0.0875	      	    		Hamuy_2003,Nadyozhin_2003
+#1999eg       95.5        None	      	    			Hamuy_2003
+1999em       10.7        0.042					Hamuy_2003,Nadyozhin_2003,Elmhamdi_etal_2003,Bersten_etal_2011,Otsuka_etal_2012,Pejcha_and_Prieto_2015
+1999gi        9.0        0.0225				        Hamuy_2003,Nadyozhin_2003,Elmhamdi_etal_2003
+#1999eu       None        0.0028                 		Elmhamdi_etal_2003
+##1999gn     12.6	  
+2000cb	     30		 0.1 					Kleiser_etal_2011
+2001dc       37.2        0.0053			Pastorello_etal_2004,Pejcha_and_Prieto_2015
+2002gd	     37.5	 0.003					Spiro_etal_2014 # Ni mass is upper limit.
+2002gw	     51.1	 0.044	 				Muller_etal_2017
+2002hh        5.9	 0.111				Otsuka_etal_2012,Pejcha_and_Prieto_2015
+2003B	     24.1	 0.023					Muller_etal_2017
+2003bn	     48.3	 0.031					Muller_etal_2017
+2003E	     65.8	 0.083					Muller_etal_2017
+2003ef	     54.0	 0.091					Muller_etal_2017
+2003fb	     64.6	 0.049					Muller_etal_2017
+2003gd        9.3        0.012                          Hendry_etal_2005,Otsuka_etal_2012
+2003hd	    116.9 	 0.030 					Muller_etal_2017
+2003hn	     11.9	 0.018					Muller_etal_2017
+2003ho	     29.5	 0.013					Muller_etal_2017
+2003T	     86.7	 0.030					Muller_etal_2017
+2003Z	      21.9	 0.005 					Spiro_etal_2014
+2004A        20.4        0.039				Gurugubelli_etal_2008,Pejcha_and_Prieto_2015
+2004dj	      3.47       0.0175				Vinko_etal_2006,Pejcha_and_Prieto_2015
+2004eg	      33.7	 0.007 					Spiro_etal_2014
+2004et	      5.9	 0.0475				Otsuka_etal_2012,Pejcha_and_Prieto_2015
+2005cs        7.1        0.004				Pastorello_etal_2009,Otsuka_etal_2012
+2006bc	      16	 0.027					Otsuka_etal_2012
+2006bp	     16.5 	 0.0015					Pejcha_and_Prieto_2015
+2006au	     46.2 	 0.073					Taddia_etal_2012     # Ni mass is upper limit.
+2006ov	     12.6	 0.002 					Spiro_etal_2014
+2006V	     72.7	 0.127	 				Taddia_etal_2012
+2007it	     11.7  	 0.09					Andrews_etal_2011
+2007od	     26.0	 0.0099					Pejcha_and_Prieto_2015
+2008bk	     28.4	 0.0125				Pejcha_and_Prieto_2015,Lisakov_etal_2017
+2008in 	     13.2	 0.023				Roy_etal_2011b,Pejcha_and_Prieto_2015
+2008gz	     25.5	 0.05					Roy_etal_2011a
+2009bw	     14.3	 0.015					Pejcha_and_Prieto_2015
+2009dd	     14.1	 0.0235				Inserra_etal_2013,Pejcha_and_Prieto_2015
+2009E 	     30.0 	 0.04					Pastorello_etal_2012
+2009ib	     19.8 	 0.061				Takats_etal_2015,Muller_etal_2017
+2009js	     45.2	 0.064					Pastorello_etal_2012
+2009N	     20.1	 0.029					Pejcha_and_Prieto_2015
+2010aj	     87.5	 0.007					Inserra_etal_2013	 # Ni mass is upper limit.
+2012A	     10.1	 0.0097					Pejcha_and_Prieto_2015
+2012aw	      9.9	 0.065				Bose_etal_2013,Pejcha_and_Prieto_2015
+2012ec	     17.3	 0.0897 			Jerkstrand_etal_2015,Barbarino_etal_2015,Muller_etal_2017
+2013ab	     18.5	 0.063	 				Muller_etal_2017
+2013am	     12.8	 0.015					Tomasella_etal_2018
+2013by	     14.8 	 0.029 					Valenti_etal_2015
+2013ej	      9.6	 0.0162		Bose_etal_2015,Huang_etal_2015,Yuan_etal_2016,Dhungana_etal_2016,Muller_etal_2017
+2013fs	     44.9	 0.085	 				Muller_etal_2017
+2013K	     34.0	 0.012					Tomasella_etal_2018
+2014G	     24.5	 0.047				Terreran_etal_2016,Muller_etal_2017
+ASSASSN-14gm 22.7	 0.076					Muller_etal_2017
+ASSASSN-14ha 14.7	 0.0081					Muller_etal_2017
+2015ba	     34.8	 0.032					Dastidar_etal_2018
+2015bs	     120.2	 0.049					Anderson_etal_2018
+2016bkv	     14.4	 0.022					Hosseinzadeh_etal_2018
+2016ija	     20.0	 0.21					Tartaglia_etal_2018
+### 2016X	      ##### MONTHRY NOTICEが見れない。(Huang_etal_2018)
+######### Valenti_etal_2016はNiの値がテーブルで載せてない。Gutiérrez_etal_2017 もNiはなさそう。#######
+#### Tsvetkov et al. (2018)も論文見れなかったです。x
+
+############
+
+#plateauでの明るさがある論文(多分網羅はしていない。): Inserra_etal_2013, Nadyozhin_2003??, Spiro_etal_2014, Valenti_etal_2016

@@ -1,0 +1,99 @@
+SN,Ni56 mass,Average/single values,stdev,Reference,,Host Galaxy,Distance,Reference_for_Host_Galaxy,Reference_for_Distancec
+SN1962L,0.3700,0.3700,,Richardson+06,,NGC 1073,7.4,,
+SN1983I,0.2300,0.2300,,Richardson+06,,NGC 4051,13.7,,
+SN1983V,0.1500,0.1500,,Richardson+06,,NGC 1365,16.600,,
+SN1987M,0.1300,0.1300,,Richardson+06,,NGC 2715,20.4,,
+SN1990B,0.1400,0.1400,,Richardson+06,,NGC 4568,21,,
+SN1992ar,0.8400,0.5950,0.3465,Richardson+06,,A231728-4438,801.7,,# Richardson+06 (https://ui.adsabs.harvard.edu/abs/2006AJ....131.2233R/abstract)
+,0.3500,,,Clochiatti+00,,,,,
+SN1994I,0.1020,0.0753,0.0145,Prentice+16,,NGC 5194,7.2,,
+,0.0700,,,Lyman+16,,,,,
+,0.0800,,,Richardson+06,,,,,
+,0.0600,,,Drout+11,,,,,
+,0.0700,,,Sauer+06,,,,,
+,0.0700,,,Iwamoto+94,,,,,
+SN1997dq,0.1600,0.1600,,Mazzali+04,,NGC 3810,15.7,,
+SN1997ef,0.1600,0.1450,0.0212,Richardson+06,,UGC 4107,55,,#Hubble distance
+,0.1300,,,Mazzali+04,,,,,
+SN2004aw,0.2000,0.2425,0.0506,Lyman+16,,NGC 3997,79.2,,
+,0.2000,,,Mazzali+17,,,,,
+,0.2700,,,Drout+11,,,,,
+,0.3000,,,Taubenberger+06,,,,,
+SN2004dn,0.1600,0.1600,,Drout+11,,UGC 2069,47.7,,
+SN2004fe,0.0800,0.1382,0.0674,Taddia+18,,NGC 132,76.1,,
+,0.1000,,,Taddia+18,,,,,
+,0.0910,,,Prentice+16,,,,,
+,0.2300,,,Lyman+16,,,,,
+,0.1900,,,Drout+11,,,,,
+SN2004ff,0.1800,0.1800,,Drout+11,,ESO 552-G40,72.5,,
+SN2004ge,0.5900,0.5900,,Drout+11,,UGC 3555,72.5,,# Hubble distance
+SN2004gk,0.0820,0.0820,,Elmhamdi+11,,IC 3311,20.6,,
+SN2004gt,0.1600,0.1600,0.0000,Taddia+18,,NGC 4038,21.1,,
+,0.1600,,,Taddia+18,,,,,
+SN2005aw,0.1400,0.1550,0.0212,Taddia+18,,IC 4837 A,34.2,,
+,0.1700,,,Taddia+18,,,,,
+SN2005az,0.2400,0.2750,0.0495,Lyman+16,,NGC 4961,39.5,,
+,0.3100,,,Drout+11,,,,,
+SN2005bf,0.6000,0.4100,0.1646,Folatelli+06,,MCG +00-27-05,88.3,,
+,0.3100,,,Anupama+05,,,,,
+,0.3200,,,Tominaga+05,,,,,
+SN2005ek,0.0300,0.0300,,Drout+13,,UGC 2526,58.7,,
+SN2005em,0.1100,0.1400,0.0424,Taddia+18,,SDSS J31347.69-001436.6,105,,# Taddia+18 (https://ui.adsabs.harvard.edu/abs/2018A%26A...609A.136T/abstract)
+,0.1700,,,Taddia+18,,,,,
+SN2005eo,0.3300,0.3300,,Drout+11,,UGC 4132,75.7,,
+SN2005mf,0.1700,0.1700,,Lyman+16,,UGC 4798,121.9,,# Hubble distance
+SN2006ab,0.2300,0.2300,,Drout+11,,PGC 10652,72.6,,# Hubble distance
+SN2006fe,0.1470,0.1470,,Prentice+16,,SDSS J05209.08-003039.3,303.4,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+SN2006ir,0.1900,0.1950,0.0071,Taddia+18,,A230435+0736,82.2,,# Taddia+18 (https://ui.adsabs.harvard.edu/abs/2018A%26A...609A.136T/abstract)
+,0.2000,,,Taddia+18,,,,,
+SN2007ag,0.1000,0.1100,0.0141,Taddia+18,,UGC 5392,114.8,,
+,0.1200,,,Taddia+18,,,,,
+SN2007gr,0.0730,0.0698,0.0093,Prentice+16,,NGC 1058,5.2,,
+,0.0800,,,Lyman+16,,,,,
+,0.0610,,,Chen+14,,,,,
+,0.0700,,,Drout+11,,,,,
+,0.0850,,,Valenti+08,,,,,
+,0.0500,,,Sharon+20,,,,,
+SN2007hn,0.1700,0.2100,0.0566,Taddia+18,,A210246-0405,113.3,,# Taddia+18 (https://ui.adsabs.harvard.edu/abs/2018A%26A...609A.136T/abstract)
+,0.2500,,,Taddia+18,,,,,
+SN2007ms,0.2110,0.2110,,Prentice+16,,SDSS J03218.33-010052.9,165.2,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+SN2007qv,0.2000,0.2000,,Taddia+15,,SDSS J23507.73-010633.4,433.5,,# Taddia+15 (https://ui.adsabs.harvard.edu/abs/2015A%26A...574A..60T/abstract)
+SN2007qx,0.0900,0.2450,0.2192,Prentice+16,,SDSS J02741.89 011356.6,348.3,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+,0.4000,,,Taddia+15,,,,,
+SN2007rz,0.0800,0.0800,0.0000,Taddia+18,,NGC 1590,56.2,,# Hubble distance
+,0.0800,,,Taddia+18,,,,,
+SN2007sj,0.0570,0.0570,,Prentice+16,,SDSS J01039.34-000310.3,165.2,,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+SN2008hh,0.1000,0.1100,0.0141,Taddia+18,,IC 112,83.3,,# Hubble distance
+,0.1200,,,Taddia+18,,,,,
+SN2009dp,0.1200,0.1850,0.0919,Taddia+18,,NGC 6912,4.6,,
+,0.2500,,,Taddia+18,,,,,
+SN2009dt,0.1200,0.1250,0.0071,Taddia+18,,IC 5169,48.7,,
+,0.1300,,,Taddia+18,,,,,
+PTF10vgv,0.1450,0.1470,,Prentice+16,,LCSB S2641N,64.5,,# Hubble distance
+,0.1490,,,Taddia+19,,,,,
+SN2011bm,0.7020,0.6573,0.0415,Prentice+16,,IC 3918,126.2,,
+,0.6200,,,Lyman+16,,,,,
+,0.6500,,,Valenti+12,,,,,
+PTF11jgj,0.1140,0.1140,,Prentice+16,,,169.8,# Host not found in OPEN SN CATALOG,# Prentice+16 (https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.2973P/abstract)
+PTF11klg,0.0900,0.0900,,Prentice+16,,CGCG 403-024,117.8,,# Hubble distance
+PTF11mnb,0.5900,0.5900,,Taddia+18,,***not found,268.5,,# Taddia+18
+SN2012ap,0.3000,0.2100,0.1273,Liu+15,,NGC 1729,39.3,,
+,0.1200,,,Milisavljevic+15,,,,,
+PTF12gzk,0.3550,0.3550,,Prentice+16,,SDSS J221241.53+003042.7,62.4,,# Hubble distance
+SN2013F,0.1500,0.1500,,Prentice+19,,IC 5325,18.1,,
+SN2014L,0.0750,0.0750,,Zhang+18,,NGC 4254,15.2,,
+iPTF15dld,0.1500,0.1500,,Pian+17,,,200,# Host not found in OPEN SN CATALOG,#Pian+17 (https://ui.adsabs.harvard.edu/abs/2017MNRAS.466.1848P/abstract)
+iPTF15dtg,0.4200,0.3550,,Taddia+16,,,232,# Host not found in OPEN SN CATALOG,#Taddia+16 (https://ui.adsabs.harvard.edu/abs/2016A%26A...592A..89T/abstract)
+,0.2900,,,Taddia+19,,,,,
+SN2016coi,0.1400,0.1200,0.0283,Prentice+18,,UGC 11868,17.2,,
+,0.1000,,,Kumar+18,,,,,
+,0.1200,,,Sharon+20,,,,,
+SN2016iae,0.1300,0.1300,,Prentice+19,,NGC 1532,17.9,,
+SN2016P,0.0900,0.0900,,Prentice+19,,NGC 5374,68.7,,
+SN2017dcc,0.1600,0.1600,,Prentice+19,,***not found,102.802,,# Prentice+19
+SN2017ein,0.1350,0.1325,,Van dyk+18,,NGC 3938,12.7,,
+,0.1300,,,Xiang+19,,,,,
+SN2017ifh,0.1600,0.1600,,Prentice+19,,***not found,156.315,,# Prentice+19
+SN2017ixz,0.0560,0.0560,,Prentice+19,,2MASX J07470232+2646347,106.5,,# Hubble distance
+SN2018cbz,0.1900,0.1900,,Prentice+19,,IC 908,109,,# Hubble distance
+SN2018ie,0.0260,0.0260,,Prentice+19,,NGC 3456,47.5,,

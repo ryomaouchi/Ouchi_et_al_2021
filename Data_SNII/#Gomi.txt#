@@ -1,0 +1,179 @@
+#距離が複数の値ある場合はどれか一つのものを使う。Niが複数ある場合は平均。
+#参考：de Jager et al.(2020)でzとd_Lの変換について書いてある。
+
+
+# Lは後回し。
+
+SN           D_Mpc       M_Ni		       Citation
+
+############
+
+***1969L        10.0        (0.082,0.067)				Hamuy_2003,Elmhamdi_etal_2003
+***1970G        7.4         (0.037,0.051)	      	    		Hamuy_2003,Elmhamdi_etal_2003
+***1973R        10.3        0.084	      	    	    		Hamuy_2003
+***1980K	      4.5	 0.0061					Pejcha_and_Prieto_2015
+***1986I        17.0        0.117	      		    		Hamuy_2003
+***1986L        18.7       (0.034,0.026)	      	    		Hamuy_2003,Nadyozhin_2003
+***1987A        0.05        (0.075,0.073)                		Arnett_etal_1989,Otsuka_etal_2012
+***1988A        17.0        (0.062,0.088)	      	    		Hamuy_2003,Elmhamdi_etal_2003
+***1988H        28.5        0.033                      		Elmhamdi_etal_2003       
+***1989L        17.0        0.015 	      	    	    		Hamuy_2003
+***1990E        18.2       (0.062,0.052,0.043)	    		Hamuy_2003,Nadyozhin_2003,Elmhamdi_etal_2003
+***1990K        23.2        0.039	      	    	   		Hamuy_2003
+***1991al       65.9        (0.095,0.12)	      	    		Hamuy_2003,Nadyozhin_2003
+***1991G        14.7        (0.022,0.021)	      	    		Hamuy_2003,Elmhamdi_etal_2003
+***1992H        29.4        (0.129,0.123,0.2798)      	    	Hamuy_2003,Elmhamdi_etal_2003,Pejcha_and_Prieto_2015
+***1992af       80.0        (0.156,0.24)      	    		Hamuy_2003,Nadyozhin_2003
+***1992am      206.0        (0.256,0.36)	      	    		Hamuy_2003,Nadyozhin_2003
+***1992ba       15.2        (0.019,0.029,0.037)	      	    	Hamuy_2003,Nadyozhin_2003,Muller_etal_2017
+***1994N        46.6        0.006					Pastorello_etal_2004
+***1995ad	     22.9	 (0.028,0.093)				Inserra_etal_2013,Pejcha_and_Prieto_2015
+***1996W	     24.3	 (0.14,0.12)				Inserra_etal_2013,Pejcha_and_Prieto_2015
+***1997D        18.1        (0.008,0.002,0.0065,0.0036)	        Zampieri_etal_2003,Turatto_etal_1998,Elmhamdi_etal_2003
+***1998A        30.3        0.11 					Pastorello_etal_2005
+***1999br       10.8        (0.0016,0.002)	      	    		Hamuy_2003,Pastorello_etal_2004
+***1999ca       45.7        0.038	      	    			Hamuy_2003
+***1999cr       93.8        (0.090,0.085)	      	    		Hamuy_2003,Nadyozhin_2003
+***1999em       10.7        (0.042,0.058,0.027,0.056,0.019,0.050)	Hamuy_2003,Nadyozhin_2003,Elmhamdi_etal_2003,Bersten_etal_2011,Otsuka_etal_2012,Pejcha_and_Prieto_2015
+***1999gi        9.0        (0.018,0.025,0.0246)	       	    	Hamuy_2003,Nadyozhin_2003,Elmhamdi_etal_2003
+***#1999eu       None        0.0028                 		Elmhamdi_etal_2003
+##1999gn     12.6	  
+***2000cb	     30		 0.1 					Kleiser_etal_2011
+***2001dc       37.2        (0.006,0.0046)				Pastorello_etal_2004,Pejcha_and_Prieto_2015
+***2002gd	     37.5	 0.003					Spiro_etal_2014 # Ni mass is upper limit.
+***2002gw	     51.1	 0.044	 				Muller_etal_2017
+***2002hh        5.9	 (0.14,0.082)				Otsuka_etal_2012,Pejcha_and_Prieto_2015
+***2003B	     24.1	 0.023					Muller_etal_2017
+***2003bn	     48.3	 0.031					Muller_etal_2017
+***2003E	     65.8	 0.083					Muller_etal_2017
+***2003ef	     54.0	 0.091					Muller_etal_2017
+***2003fb	     64.6	 0.049					Muller_etal_2017
+***2003gd        9.3        (0.016,0.008)                          Hendry_etal_2005,Otsuka_etal_2012
+***2003hd	    116.9 	 0.030 					Muller_etal_2017
+***2003hn	     11.9	 0.018					Muller_etal_2017
+***2003ho	     29.5	 0.013					Muller_etal_2017
+***2003T	     86.7	 0.030					Muller_etal_2017
+***2003Z	      21.9	 0.005 					Spiro_etal_2014
+***2004A        20.4        (0.032,0.046)				Gurugubelli_etal_2008,Pejcha_and_Prieto_2015
+***2004dj	      3.47       (0.02,0.015)				Vinko_etal_2006,Pejcha_and_Prieto_2015
+***2004eg	      33.7	 0.007 					Spiro_etal_2014
+***2004et	      5.9	 (0.059,0.036)				Otsuka_etal_2012,Pejcha_and_Prieto_2015
+***2005cs        7.1        (0.003,0.005)				Pastorello_etal_2009,Otsuka_etal_2012
+***2006bc	      16	 0.027					Otsuka_etal_2012
+***2006bp	     16.5 	 0.0015					Pejcha_and_Prieto_2015
+***2006au	     46.2 	 0.073					Taddia_etal_2012     # Ni mass is upper limit.
+***2006ov	     12.6	 0.002 					Spiro_etal_2014
+***2006V	     72.7	 0.127	 				Taddia_etal_2012
+***2007it	     11.7  	 0.09					Andrews_etal_2011
+***2007od	     26.0	 0.0099					Pejcha_and_Prieto_2015
+***2008bk	     28.4	 (0.016,0.009)				Pejcha_and_Prieto_2015,Lisakov_etal_2017
+***2008in 	     13.2	 (0.015,0.031)				Roy_etal_2011b,Pejcha_and_Prieto_2015
+***2008gz	     25.5	 0.05					Roy_etal_2011a
+***2009bw	     14.3	 0.015					Pejcha_and_Prieto_2015
+***2009dd	     14.1	 (0.029,0.018)				Inserra_etal_2013,Pejcha_and_Prieto_2015
+***2009E 	     30.0 	 0.04					Pastorello_etal_2012
+***2009ib	     19.8 	 (0.046,0.076)				Takats_etal_2015,Muller_etal_2017
+***2009js	     45.2	 0.064					(この引用は間違っている)Pastorello_etal_2012
+***2009N	     20.1	 0.029					Pejcha_and_Prieto_2015
+***2010aj	     87.5	 0.007					Inserra_etal_2013	 # Ni mass is upper limit.
+***2012A	     10.1	 0.0097					Pejcha_and_Prieto_2015
+***2012aw	      9.9	 0.06,0.070				Bose_etal_2013,Pejcha_and_Prieto_2015
+***2012ec	     17.3	 (0.20,0.040,0.029) 			Jerkstrand_etal_2015,Barbarino_etal_2015,Muller_etal_2017
+***2013ab	     18.5	 0.063	 				Muller_etal_2017
+***2013am	     12.8	 0.015					Tomasella_etal_2018
+***2013by	     14.8 	 0.029 					Valenti_etal_2015
+***2013ej	      9.6	 (0.02,0.02, 0.023,0.013,0.0087)		Bose_etal_2015,Huang_etal_2015,Yuan_etal_2016,Dhungana_etal_2016,Muller_etal_2017
+***2013fs	     44.9	 0.085	 				Muller_etal_2017
+***2013K	     34.0	 0.012					Tomasella_etal_2018
+***2014G	     24.5	 (0.059,0.035)				Terreran_etal_2016,Muller_etal_2017
+***ASSASSN-14gm 22.7	 0.076					Muller_etal_2017
+***ASSASSN-14ha 14.7	 0.0081					Muller_etal_2017
+***2015ba	     34.8	 0.032					Dastidar_etal_2018
+***2015bs	     120.2	 0.049					Anderson_etal_2018					
+***2016bkv	     14.4	 0.022					Hosseinzadeh_etal_2018
+***2016ija	     20.0	 0.21					Tartaglia_etal_2018
+***2016X	     15.2        0.034					Huang_etal_2018
+***2017eaw	     6.0	 0.05					Tsvetkov et al. 2018
+######### Valenti_etal_2016はNiの値がテーブルで載せてない。Gutiérrez_etal_2017 もNiはなさそう。#######
+
+
+############
+
+#plateauでの明るさがある論文(多分網羅はしていない。): Inserra_etal_2013, Nadyozhin_2003??, Spiro_etal_2014, Valenti_etal_2016, Valenti_et_al2015
+, Jager+20
+
+#====================================
+
+
+
+
+
+###############################################################################################
+################## Below are the recent papers not used in Anderson 19. #######################
+# ("supernova" + "type II"という検索を2018_Aug~2020_Decまでの範囲で行った。)
+# IInは含まない
+
+######exist in anderson sample
+1999em	                 0.036, 0.075				#Hiller et al.(2019),Ricks et al.(2019)
+2012aw 			 0.06,0.066,0.056			#Hiller et al.(2019),Martinez et al.(2019),Szala et al.(2019)
+2004A			 0.085					#Martinez et al.(2019)
+2004et			 0.053,0.063,0.100			#Hiller et al.(2019),Martinez et al.(2019),Ricks et al.(2019)
+2005cs			 0.0015					#Martinez et al.(2019)
+2008bk			 0.0085,0.0086				#Martinez et al.(2019), Lisakov et al.(2018)
+2009bw			 0.060					#Ricks et al.(2019)
+2012ec			 0.042					#Martinez et al.(2019)				
+2013ab			 0.065					#Ricks et al.(2019)
+2013ej			 0.020					#Szala et al.(2019)
+2015ba			 0.050					#Ricks et al.(2019)
+2016X			 0.036					#Ricks et al.(2019)
+2017eaw	         	 0.115,0.0455,0.07			#Buta et al.(2019), Szala et al.(2019)=> 0.0455 is average btw 0.045, 0.046, Van Dyk et al.(2019)
+##############################
+
+1983K        20.0	 0.056					#Rodriguez et al.(2020)
+2004em	     		 
+2008bm	     135.5	 0.015					#Rodriguez et al.(2020), value is lower limit
+2009aj	     60.0	 0.043					#Rodriguez et al.(2020), value is lower limit
+LSQ13fn	     276.7	 0.018 					#Rodriguez et al.(2020), value is lower limit
+OGLE-2014-SN-073   	 					# only redshift is available.
+2014cx	     18		 0.100					#Ricks et al.(2019)
+ASASSN-14dq  44.8	 0.075,0.029				#Ricks et al.(2019),Singh et al.(2018)
+ASASSN-14jb  25.1	 0.0210					#Meza et al.(2019)
+ASASSN-15nx  127.5	 1.6					#bose et al.(2018)
+ASASSN-15oz  28.8	 0.095					#Bostroem et al.(2019), Ni mass is average of 0.08,0.11
+2015an	     30.5        0.021					#Dastidar et al.(2019)
+2016aqf      10.8        0.008 		 			#Müller-Bravo et al.(2020)
+2016B	     26.8	 0.082					#Dastidar et al.(2019)
+DES16C3cje   275.95      0.0775					#Gutierrez et al.(2020), value is average btw 0.07 & 0.08.
+2016gfy	     29.64	 0.033					#Singh et al.(2019_)
+2016gsd	     311.6	 0.12					#Reynolds et al.(2020), value is upper limti.
+2016hil	     None	 0.07	 			 	#Irani et al.(2019), only redshift is known. , Ni value is upper limit.
+2016kf	     197.4 	 0.10					#Afsariardchi et al.(2019)
+2017gmr	     19.6	 0.130					#Andrews et al.(2019)	     
+2018hna	     12.82	 0.087					#Singh et al.(2019)
+2018ivc	     10.1	 0.0056	   				#Bostroem et al.(2020)
+PSN J17292918+7542390       17.8   0.00155 			#Jäger et al.(2020)
+
+#Müller-Bravo et al.(2020): https://ui.adsabs.harvard.edu/abs/2020MNRAS.497..361M/abstract
+#Jäger et al.(2020): https://ui.adsabs.harvard.edu/abs/2020MNRAS.496.3725J/abstract
+#Gutierrez et al.(2020): https://ui.adsabs.harvard.edu/abs/2020MNRAS.496...95G/abstract
+#Rodriguez et al.(2020): https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.5882R/abstract
+#Bostroem et al.(2020): https://ui.adsabs.harvard.edu/abs/2020ApJ...895...31B/abstract
+#Reynolds et al.(2020): https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.1761R/abstract
+#Dastidar et al.(2019): https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.1605D/abstract
+#Irani et al.(2019): https://ui.adsabs.harvard.edu/abs/2019ApJ...887..127I/abstract
+#Andrews et al.(2019): https://ui.adsabs.harvard.edu/abs/2019ApJ...885...43A/abstract
+#Hiller et al.(2019): https://ui.adsabs.harvard.edu/abs/2019A%26A...631A...8H/abstract
+#Singh et al.(2019): https://ui.adsabs.harvard.edu/abs/2019ApJ...882L..15S/abstract
+#Singh et al.(2019_): https://ui.adsabs.harvard.edu/abs/2019ApJ...882...68S/abstract
+#Martinez et al.(2019): https://ui.adsabs.harvard.edu/abs/2019A%26A...629A.124M/abstract
+#Meza et al.(2019): https://ui.adsabs.harvard.edu/abs/2019A%26A...629A..57M/abstract
+#Afsariardchi et al.(2019): https://ui.adsabs.harvard.edu/abs/2019ApJ...881...22A/abstract
+#Buta et al.(2019): https://ui.adsabs.harvard.edu/abs/2019MNRAS.487..832B/abstract
+#Ricks et al.(2019): https://ui.adsabs.harvard.edu/abs/2019ApJ...880...59R/abstract
+#Dastidar et al.(2019): https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.2850D/abstract
+#Bostroem et al.(2019): https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.5120B/abstract
+#Szalai et al.(2019): https://ui.adsabs.harvard.edu/abs/2019ApJ...876...19S/abstract
+#Van Dyk et al.(2019): https://ui.adsabs.harvard.edu/abs/2019ApJ...875..136V/abstract
+#Lisakov et al.(2018): https://ui.adsabs.harvard.edu/abs/2018PhDT.......126L/abstract
+#Singh et al.(2018): https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.2475S/abstract
+#Bose et al.(2018): https://ui.adsabs.harvard.edu/abs/2018ApJ...862..107B/abstract

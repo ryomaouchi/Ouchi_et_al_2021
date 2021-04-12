@@ -1,0 +1,224 @@
+Response letter
+
+Paper: AAS29370
+Title: Are stripped envelope supernovae really deficient in ^{56}Ni?
+Author: Ryoma Ouchi, Keiichi Maeda, Joseph P. Anderson, Ryo Sawada
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> The paper investigates the effect of observational biases on the nickel mass distribution of Type II SNe and SESNe and whether the systematic biases can explain the higher nickel mass of SESNe compared to Type II SNe. The study is based on the SN samples of Anderson 2019 and Meza 2020. The authors show that SESNe are found at larger distances and therefore suffer from greater observational biases compared to Type II SNe. They discuss that this may partly explain the reported discrepancy between the nickel mass distribution of SESNe and Type II SNe. Additionally, the authors conducted mock observations to determine whether the intrinsic nickel mass distribution of Type II SNe and SESNe could be the same.
+> Constraining the intrinsic nickel mass distribution of SESNe is an important topic and has implications for the progenitors of SESNe. The results appear to be new and useful for further studies, however several major issues need to be addressed before publication in ApJ.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+We thank the referee for all the useful comments. I believe they have significantly improved the manuscript. We have revised the manuscript addressing all the comments. The changes are listed below. The modified parts in the manuscript are indicated with red.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> 1. The scaling relations (3) and (4) between Mni, Mej, and Ek are obtained from Lyman 2016. The data presented in Figure 8 of Lyman 2016 seems to 1) have high scatter, 2) depend on SN sub-type, and 3) be based on a sample that has observational biases. My concern is that the combination of equations 1—4 implies that peak time, peak luminosity, Mej, Ek, and diffusion time of SESNe can be solely expressed by Mni, while in reality many parameters play a role such as density profile, where Mni is deposited, non-constant opacity, etc. A linear interpolation might not be a good fit, unless the goodness of fit is assessed statistically. The issue can be seen in Figure (13), in which the curve doesn’t appear to fit the scattered datapoints well. A similar plot might be helpful for checking how well the peak luminosity obtained from equation 1—4 fits the observed peak bolometric luminosity. This issue affects the mock observation section of the paper.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the important comments. I basically agree to your points. Below, I  list a few major changes that I have made following your comments.
+
+i). We decided to directly fit t_p (time from explosion to peak) as a function of 56Ni mass:
+Previously, we conducted linear fits both to ejecta mass (M_ej) and explosion energy (E_K) as a function of 56Ni mass, respectively (section 3). Then, combining these relations with the equation of diffusion timescale, we derived a relation for t_p as a funcftion of 56Ni mass.
+
+However, as you pointed out, the resulting relation for t_p as a function of 56Ni mass seems not to reproduce the data points well (Fig. 13 in previous manuscript). Therefore, we decided to directly fit t_p as a function of 56Ni mass to get a better fit. 
+
+ii). For that purpose, we decided to use the smaple of Meza & Anderson (2020):
+Previously, we used the sample of Lyman et al.(2016) to derive fitting formulae. This time, we decided to use the sample of Meza & Anderson (2020) instead. This is firstly because this sample is taken at relatively close locations (median distance of SESNe sample, excluding Ic-BL, is 46.7 Mpc). Therefore, they are less affected by an observational bias. Second, the objects in their sample are chosen under the condition that they contain the data around the peak (i.e. They were required to have at least one data point before and after the estimated peak luminosity in the bolometric light curve). Thus, their peak luminosity and t_p are considered to be relatively accurate.
+
+iii). We added a figure (Fig. 1 in the revised manuscript) in which a predicted bolometric peak luminosity from the fitting formula is compared to the observed value:
+As shown in the figure, the observed value of peak bolometric luminosity is well reproduced from our fitting formula.
+
+The changes noted above are explained in more detail in section 3.1 with the following sentences.
+'''''''''''''''''''''''''''''''''''''''''''
+In principle, t_p and L_p of SESNe are determined not only by a 56Ni mass, but also by many other parameters, such as density profile and the spatial profile of 56Ni. However, in this paper, we take a simplified approach and express t_p and L_p only as a function of 56Ni mass. For that purpose, we derive a fitting formula for t_p as a function of 56Ni mass using the well-observed sample of Meza-SESNe taken from Meza & Anderson(2020). Since this sample is collected at nearby locations (i.e., median distance of their SESNe sample, excluding Ic-BL, is 46.7 Mpc), the objects are considered to be less affected by an observational bias. Furthermore, the objects in their sample are chosen under the condition that they contain the data around the peak. Thus,L_p and t_p in their sample are considered to be relatively accurate. As shown in the left panel of Fig. 1, t_p and log M_Ni broadly follows the linear correlation. Thus, we conducted a linear regression to it, using the least square method. We did not use SNe Ic-BL samples, since they are considered to be unusual objects. The derived formula becomes:
+
+   t_p= (9.41 ± 2.98)× log10(MNi/Msun) +(29.74±3.42) [day]. (2)
+
+Using this equation, together with equation 1, we can estimate t_p for a given 56Ni mass. In the right panel of Fig. 1, the peak luminosity calculated for a given 56Ni mass using equation 1 and 2 are compared to the data points of Meza-SESNe. You can see that the data points for the peak luminosity are well reproduced by our fitting formula.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+> 2. The Arnett models have shown to be inaccurate in several observational and theoretical studies (e.g., Dessart 2016; Afsariardchi 2020, Sukhbold 2016; Khatami 2019; Meza 2020). The error caused by using Arnett is especially important for the conclusions of this paper because it means the Mni values of SESNe are over-estimated in most of literature studies. This should be taken into account: 1) in Equation 1 and dependent analyses, 2) while comparing Mni of SESNe vs Type II SNe. Figure 8 presents Mni of LS-SESNe
+and Meza 2020, both of which are mostly derived from Arnett models. Tail values have shown to be more robust.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the important comments. Below are the list of replies to your suggestions.
+
+i). In section 1, we have added the following sentences.
+'''''''''''''''''''''''''''''''''''''''''''
+Actually, ‘Arnett-rule’, which has been widely used to derive a 56Ni mass of SESNe have been proposed to overestimate the 56Ni mass (Dessart etal. 2015, 2016; Khatami & Kasen 2019). 
+'''''''''''''''''''''''''''''''''''''''''''
+
+ii). We added appendix B, where we comapre two cases of using `Tail mass' and `Arnett mass' for fitting t_p. We have shown that our main results of mock observation is not dependent on which mass we use.
+
+In section 7, we have added the following sentences.
+'''''''''''''''''''''''''''''''''''''''''''
+The results derived in section 6 are based on the fitting relation for t_p as a function of 56Ni mass (equation2). This 56Ni mass has been derived using ‘Arnett-rule’, which has been claimed to overestimate the value by a factor of few (Dessart et al. 2016; Khatami & Kasen2019). In appendix B, we have shown that even if we use the 56Ni mass derived from tail luminosity, our main results does not change notably. Thus, our results in section 6 is not affected by the methods for deriving 56Ni mass.
+'''''''''''''''''''''''''''''''''''''''''''
+
+iii). In Fig. 8 (or Fig. 9 in the revised manuscript), we have added the 56Ni masses distribution derived from tail luminosity, following your suggestion.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+3. The authors excluded Type Ic-BL SNe from several analyses such as scaling
+relations of (3) and (4) but included them in LS-SESNe and Meza2020
+samples. As noted in the paper, these SNe likely have additional power
+sources, and will skew the distribution towards higher Mni. It might be
+appropriate to provide plots and analyses in which Type Ic-BL SNe are
+distinguished and separated from the rest of SESNe (e.g., these SNe could be
+marked with a different symbol in the figures).
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the important comments. In the relevant figures, we seperated SNe Ic-BL from others. Thanks to your suggestion, we have found that the distance dependence of 56Ni mass is mainly caused by SNe Ic-BL, as shown in Fig. 4 in the revised manuscript.
+
+In section 4.1, we have added the following sentences.
+'''''''''''''''''''''''''''''''''''''''''''
+Note, however, that if we remove SNe Ic-BL from LS-SESNe, then, the trend that 56Ni mass decreases with distance is much weakened. This may indicate that SNeIc-BL, whose distances are larger than other types of SNe, are the main causes of such a trend, and other types ofSESNe (e.g.  SNe IIb,  Ib and Ic) may not be suffering from the observational bias significantly.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+4. For mock observations, the error associated with scaling relations needs to
+be propagated for constraining the uncertainty on the distribution. In
+addition, for commenting on how close or apart a pair of CDFs are or whether
+their difference is statistically significant, the result of K-S statistical test
+could be reported.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the important comments. Following your suggestion, we have taken into account the error associated with scaling relation. The details are explained in the following sentences that are added in section 5.2.
+'''''''''''''''''''''''''''''''''''''''''''
+ First, from the given 56Ni mass, we randomly pick up a value of t_p based on the distribution derived from the fit in section 3. Combining this value of t_p with the chosen value of 56Ni mass, we can estimate a peak luminosity of SESNe (see, equation 1). 
+'''''''''''''''''''''''''''''''''''''''''''
+
+Also, following your suggestion, we conducted K-S statistical test. We show the results in Table 1. We have also added the following sentences in section 6.2.
+'''''''''''''''''''''''''''''''''''''''''''
+To make quantitative comparisons of the different 56Ni mass distributions, we conducted K-S statistical test as shown in Table 1. It is true that the 56Ni mass distribution from mock observations is not consistent with that of LS-SESNe, with a p-value being p= 4.4×10^−16. But, the 56Ni mass distribution from mock observations is very close to that of ‘Arnett mass’ from Meza-SESNe, which only consists of the well-observed objects (p= 0.39).
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Minor Issues:
+1. Abstract: it might be worthwhile to mention that the mock observation have trouble explaining SESNe with large Mni as well as low Mni ones.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We have added the following sentence in the abstract.
+'''''''''''''''''''''''''''''''''''''''''''
+However, our mock observations fail to explain the SESNe with high 56Ni mass (>0.2M), which are mainly SNeIc-BL. 
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2. In the inro and conclusion, the authors mention that similar Mni distribution should be obtained for SESNe and Type II SNe assuming the binary scenario for the progenitors of SESNe. This might not be completely valid as: 1) massive stars are preferentially formed in close binaries systems (Moe 2017), 2) angular momentum transfer may have effects on the core structure and boost the synthesized Mni. For example, in the theoretical work of Schneider 2021, larger Mni values are found for binary progenitors compared to Type II SNe.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We have added the following sentences in the introduction.
+'''''''''''''''''''''''''''''''''''''''''''
+Note, however, that there are also indications that the progenitors of SESNe may be more massive than SNe II either as an entire class or for the particular SN Ic class(e.g. Anderson et al. 2012; Valenti et al. 2012; Fang etal. 2019). Indeed, massive stars are claimed to be preferentially formed in close binaries systems (Moe & DiStefano 2017). Also, SESNe are found nearer to bright HII regions than SNe II, which indicates that the former come from more massive progenitors (Anderson et al. 2012). From a theoretical perspective, on the other hand, angular momentum transfer may have effects on the core structure and boost the synthesized 56Ni mass (Schneider et al. 2021). 
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+3. Section 2: could be helpful to mention how Mni and peak luminosity are calculated for these datasets
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We have added the following sentences in section 2.
+'''''''''''''''''''''''''''''''''''''''''''
+Several different methods have been used to derive a 56Ni mass in the literature. For SNe II, it is common to use tail luminosity to measure the 56Ni mass. For SESNe, on the contrary, 56Ni mass is often derived by feeding a peak luminosity into the ‘Arnett-relation’. It is true that tail luminosity has also been used for SESNe to constrain the 56Ni mass. But, since the assumption of complete γ-ray trapping is usually not valid for SESNe, the tail luminosity only gives a lower limit to the 56Ni mass.
+'''''''''''''''''''''''''''''''''''''''''''
+
+'''''''''''''''''''''''''''''''''''''''''''
+ To obtain peak luminosities, they applied a local polynomial regression with a Gaussian kernel, using the public modules from PyQt-fit in Python4. Note that they did not extrapolate the fluxes outside their defined wavelength range of B to H. Therefore, their resulting light curves should be considered pseudo-bolometric, and are a lower limit to the true bolometric luminosity at all times. In the paper, they tried three different methods to derive a 56Ni mass. In the first method, they  used ‘Arnett-rule’. In the second method, they used a tail luminosity. Third method is the recently proposed method by Khatami & Kasen(2019), that addresses several limitations of Arnett-like models.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+4. Section 2: what Hubble constant and cosmological parameters were used?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We have added the following sentence in section 2.
+'''''''''''''''''''''''''''''''''''''''''''
+For the cosmological parame-ters, H_0= 67.8 km/sec/Mpc, Ω_matter= 0.308, Ω_vacuum= 0.692 have been used.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+5. Section 3.2: what would be the effect of assuming BC=0 and At=0?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We have added the following footnote in section 3.2.
+'''''''''''''''''''''''''''''''''''''''''''
+In reality, non-zero values of A_t and BC would shift the observable distance for a given limiting magnitude. If we replaced the values of A_t and BC by the typical values of SESNe, it means that we would consider a shifted value of Vlim.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+6. Section 5.2: line 429, higher luminosity does not necessarily mean higher Mni, unless peak time is constant.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. I agree to your opinion. However, both the data points in the published literature and the prediction from our fitting formula  suggest that 56Ni mass and a peak luminosity of SESNe are, in general, positively correlated. We have added the following sentence in section 6.1.
+'''''''''''''''''''''''''''''''''''''''''''
+As seen from Fig. 1, the objects with higher 56Ni mass, in general, have higher peak luminosity. Thus, they have the larger observable volume and dominates the detected sample. 
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+7. Section 6.3: line 469—477, I wasn’t able to understand the argument, a clarification could be helpful. When Vlim -> infinity, I expect to see the observed distribution approaches the intrinsic distribution.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. This apparently counterintuitive argument happens because we consider a magnitude-limited sample here. We have added a new panel to Fig. 10 (or Fig. 9 in the previous manuscript) and added the following sentences in section 6.3 to clarify this point.
+
+'''''''''''''''''''''''''''''''''''''''''''
+Note that this apparently counterintuitive result happens, because we consider a magnitude-limited sample here. For comparison, we show the result of mock observations, assuming the outer boundary of all the events is 80Mpc, in the right panel of Fig.10. This constructs the volume-limited samples. In this case, you can see that the cumulative distribution of 56Ni mass approaches to the intrinsic one as the limiting magnitude gets larger.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+8. Figure 8: there is a curve for LS-SESNe without Ic-BLs, perhaps the same could be shown for Meza 2020 too, as Meza 2020 has 2 Type Ic-BL and 2 GRB SNe too.
+(Say, we can create Fig.a: compare removing Ic-BL datasets, Fig.b:compare Ic-BL vs removing Ic-BL)
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the suggestion. Following your suggestions, we have created two figures (Fig. 9 in the revised manuscript). In one panel, the result of a mock observation is compared to different samples with SNe Ic-BL being excluded, while in the other panel, the samples that exclude and include SNe Ic-BL are compared.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+9. Figure 11: what is the ref. for USSNe? Are these everything that can be found in literature?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: In the caption of Fig.11, there is a sentence "The references for USSNe are listed at the end of the manuscript.", which is colored red to stand out. All the USSNe data are taken from here. For further clarity, we have added the following sentences in section 2.
+'''''''''''''''''''''''''''''''''''''''''''
+Finally, in section 7, we will compare our results to the ultra-stripped envelope SNe (USSNe) samples. The data for USSNe are also collected from the publsihed literature, and the references for them are listed at the end of the manuscript.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+10. Figure 13: what is the definition of duration? Is it peak time since explosion epoch?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. Yes, duration means the time from explosion to peak. I changed the word `duration' to `tp' in the figure.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+11. Section 6.4: what is the effect of assuming Lp is maintained for tp? Will this cause a significant overestimation of detected SNe?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We  have added the following sentencse to caution its limitiation.
+'''''''''''''''''''''''''''''''''''''''''''
+Note, however, that our assumption that a peak luminosity maintains for t_p is quite simplistic and may overestimate the detection of an object. Thus, although our discussion clarifies the qualitative effect of observational cadence, we do not consider that it has quantitative predictive power.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+12. Section 7: what is the ref. for line 579—583?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We had believed that this fact has already been claimed by the previous works. However, we could not find a paper that explicitly claims this fact (although these trends can be found in the samples, e.g., Meza & Anderson(2020), Lyman et al. (2016)). So, in section 7, we have changed the relevant sentences as follows.
+'''''''''''''''''''''''''''''''''''''''''''
+ As shown in Fig. 14, the 56Ni mass and the timescale of SESNe are found to be positively correlated. Thus, SESNe with lower 56Ni mass are expected to have shorter timescales.
+'''''''''''''''''''''''''''''''''''''''''''
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13. Section 7: line 652--655: would be worthwhile to answer: if Mni>0.2 have same explosion mechanism as Ic-BL, why there’re not detected as Ic-BL?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. The answer to this comment is included to the reply to comment #14.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+14. Section 7: “The fraction of objects with Mni> 0.2 among LS-SESNe is 42 %, while that of Ic-BL is 30 %, which are not so different.” Does 42% includes type Ic-BL SNe too? If yes, comparing their rates might not imply their shared origin.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. Yes, I had included them. Actually, thanks to your comment #3, we have found that the SESNe with high 56Ni mass (> 0.2Msun) are mostly SNe Ic-BL. Thus, instead of saying that "SESNe with M_Ni >0.2Msun are not explained by mock observations", we have decided to say that "SNe Ic-BL are not explained by our mock observations".
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+15. Section 664—667, could you mention some of those indications?
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Response: Thank you for the comment. We have added the folowing sentences in section 7.
+'''''''''''''''''''''''''''''''''''''''''''
+This may mean that SESNe have higher 56Ni mass than SNe II in general. If SESNe have higher intrinsic 56Ni mass than SNe II, then the 56Ni mass distribution from mock observation would shift to higher mass, which may match with LS-SESNe better.
+'''''''''''''''''''''''''''''''''''''''''''
